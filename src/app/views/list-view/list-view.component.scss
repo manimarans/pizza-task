@@ -96,4 +96,12 @@ tbody {
     text-align: center;
     text-decoration: underline;
     margin: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: indigo;
+}
+
+.disable {
+    pointer-events: none;
+    opacity: 0.5;
 }

@@ -1,4 +1,4 @@
-<div class="title">Order List</div>
+<div class="title">ORDER LIST</div>
 <table>
     <thead>
         <tr>
@@ -15,9 +15,15 @@
         <tr *ngFor="let row of rows">
             <td *ngFor="let column of this.columns" class="row">
                 <div class="cell" [ngSwitch]="column.type" >
-                    <div class="txt-field" *ngSwitchCase="1">{{ row[column.name] }}</div>
-                    <div class="txt-link" *ngSwitchCase="2" [routerLink]="['/order-details/' + row.orderId]">{{ row[column.name] }}</div>
-                    <div class="action-btn" *ngSwitchCase="3" (click)="takeAction(row)">Move order</div>
+                    <div class="txt-field" *ngSwitchCase="1">
+                        {{ row[column.name] }}
+                    </div>
+                    <div class="txt-link" *ngSwitchCase="2" [routerLink]="['/order-details/' + row.orderId]">
+                        {{ row[column.name] }}
+                    </div>
+                    <div class="action-btn" *ngSwitchCase="3" (click)="takeAction(row)" [ngClass]="row.statusId===3 ? 'disable' : ''">
+                        Move order
+                    </div>
                 </div>
             </td>
         </tr>

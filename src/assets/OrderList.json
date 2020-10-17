@@ -3,22 +3,22 @@
        "listData":[
           {
              "orderId":107,
-             "customerName":"Anushka",
+             "customerName":"Sundar",
              "noOfItems":"3",
              "totalAmt":"3000",
              "status":"Preparing",
              "statusId":2
           },{
             "orderId":108,
-            "customerName":"Jothika",
+            "customerName":"Elon",
             "noOfItems":"3",
-            "totalAmt":"26000",
+            "totalAmt":"2600",
             "status":"Preparing",
             "statusId":2
          },
          {
             "orderId":109,
-            "customerName":"Malavika",
+            "customerName":"Steve",
             "noOfItems":"3",
             "totalAmt":"2400",
             "status":"Ready to serve",
@@ -26,9 +26,9 @@
          },
          {
             "orderId":119,
-            "customerName":"Vethika",
-            "noOfItems":"6",
-            "totalAmt":"6500",
+            "customerName":"Gates",
+            "noOfItems":"3",
+            "totalAmt":"2200",
             "status":"Order Received",
             "statusId":1
          }
@@ -105,8 +105,8 @@
                     }
                 ],
                 "totalprice": 3000,
-                "customerName": "Anushka",
-                "deliveryAddr": "Andhra"
+                "customerName": "Sundar",
+                "deliveryAddr": "#6, Mount Road"
             },
             {
                 "orderId":108,
@@ -125,8 +125,8 @@
                     }
                 ],
                 "totalprice": 2600,
-                "customerName": "Jothika",
-                "deliveryAddr": "Mumbai"
+                "customerName": "Elon",
+                "deliveryAddr": "#81, South wales"
             },
             {
                 "orderId":109,
@@ -145,8 +145,8 @@
                     }
                 ],
                 "totalprice": 2400,
-                "customerName": "Malavika",
-                "deliveryAddr": "Kerala"
+                "customerName": "Steve",
+                "deliveryAddr": "#10, Park street"
             },
             {
                 "orderId":119,
@@ -165,7 +165,7 @@
                     }
                 ],
                 "totalprice": 2200,
-                "customerName": "Vethika",
+                "customerName": "Gates",
                 "deliveryAddr": "Andhra"
                 }
         ]
