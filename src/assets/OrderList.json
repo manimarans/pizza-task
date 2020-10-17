@@ -1,0 +1,173 @@
+{
+    "data":{
+       "listData":[
+          {
+             "orderId":107,
+             "customerName":"Anushka",
+             "noOfItems":"3",
+             "totalAmt":"3000",
+             "status":"Preparing",
+             "statusId":2
+          },{
+            "orderId":108,
+            "customerName":"Jothika",
+            "noOfItems":"3",
+            "totalAmt":"26000",
+            "status":"Preparing",
+            "statusId":2
+         },
+         {
+            "orderId":109,
+            "customerName":"Malavika",
+            "noOfItems":"3",
+            "totalAmt":"2400",
+            "status":"Ready to serve",
+            "statusId":3
+         },
+         {
+            "orderId":119,
+            "customerName":"Vethika",
+            "noOfItems":"6",
+            "totalAmt":"6500",
+            "status":"Order Received",
+            "statusId":1
+         }
+       ],
+       "listSettings":{
+          "columns":[
+            {
+                "name":"orderId",
+                "displayName":"Order Id",
+                "visible": true,
+                "type":1
+             },
+             {
+                "name":"customerName",
+                "displayName":"Customer Name",
+                "visible": true,
+                "type":2
+             },
+             {
+                "name":"noOfItems",
+                "displayName":"No of Items",
+                "visible": true,
+                "type":1
+            },
+            {
+                "name":"totalAmt",
+                "displayName":"Total",
+                "visible": true,
+                "type":1
+            },
+            {
+                "name":"status",
+                "displayName":"Status",
+                "visible": true,
+                "type":1
+            },
+            {
+                "name":"action",
+                "displayName":"Action",
+                "visible": true,
+                "type":3
+            }
+          ],
+          "status":[
+            {
+                "id":1,
+                "status":"Order Received"
+            },
+            {
+                "id":2,
+                "status":"Preparing"
+            },
+            {
+                "id":3,
+                "status":"Ready to serve"
+            }
+          ]
+       },
+       "ordersDetails":[
+            {
+                "orderId":107,
+                "items": [
+                    {
+                        "itemName": "Big Pizza",
+                        "price": 1000
+                    },
+                    {
+                        "itemName": "Medium Pizza",
+                        "price": 700
+                    },
+                    {
+                        "itemName": "Chicken Pizza",
+                        "price": 1300
+                    }
+                ],
+                "totalprice": 3000,
+                "customerName": "Anushka",
+                "deliveryAddr": "Andhra"
+            },
+            {
+                "orderId":108,
+                "items": [
+                    {
+                        "itemName": "Veg Pizza",
+                        "price": 600
+                    },
+                    {
+                        "itemName": "Medium Pizza",
+                        "price": 700
+                    },
+                    {
+                        "itemName": "Chicken Pizza",
+                        "price": 1300
+                    }
+                ],
+                "totalprice": 2600,
+                "customerName": "Jothika",
+                "deliveryAddr": "Mumbai"
+            },
+            {
+                "orderId":109,
+                "items": [
+                    {
+                        "itemName": "Hot Pizza",
+                        "price": 400
+                    },
+                    {
+                        "itemName": "Medium Pizza",
+                        "price": 700
+                    },
+                    {
+                        "itemName": "Chicken Pizza",
+                        "price": 1300
+                    }
+                ],
+                "totalprice": 2400,
+                "customerName": "Malavika",
+                "deliveryAddr": "Kerala"
+            },
+            {
+                "orderId":119,
+                "items": [
+                    {
+                        "itemName": "Small Pizza",
+                        "price": 200
+                    },
+                    {
+                        "itemName": "Medium Pizza",
+                        "price": 700
+                    },
+                    {
+                        "itemName": "Chicken Pizza",
+                        "price": 1300
+                    }
+                ],
+                "totalprice": 2200,
+                "customerName": "Vethika",
+                "deliveryAddr": "Andhra"
+                }
+        ]
+    }
+ }

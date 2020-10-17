@@ -1,0 +1,19 @@
+<div class="container" *ngIf="order">
+    <div class="title">Order Detail</div>
+    <div>Customer Name : {{order.customerName}}</div>
+    <div class="items-header">
+        <div>Items</div>
+        <div>Price</div>
+    </div>
+    <div class="items" *ngFor="let item of order.items, let i = index">
+        <div class="flex-item">{{i+1 + '. ' + item.itemName}}</div>
+        <div class="flex-item">{{item.price}}</div>
+    </div>
+    <div class="items">
+        <div>Total</div>
+        <div>{{order.totalprice}}</div>
+    </div>
+    <div></div>
+    <div style="margin-top: 15px;">Delivery Address : {{order.deliveryAddr}}</div>
+</div>
+<div class="action-btn" [routerLink]="['/list-orders']">Back to List</div>
